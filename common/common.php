@@ -50,5 +50,5 @@ include 'functions.php';
 // database
 require ROOT . 'config.php';
 define('DB_PREFIX', $db_config['prefix']);
-if (!$db_config['username'] || !$db_config['password'] || !$db_config['name']) exit(base64_decode('VU5BQkxFJm5ic3A7VE8mbmJzcDtDT05ORUNUJm5ic3A7VE8mbmJzcDtUSEUmbmJzcDtEQVRBQkFTRSEmbmJzcDsoRXJyb3ImbmJzcDtjb2RlOiZuYnNwOy0xMDExKSZuYnNwOzxhJm5ic3A7aHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL0JpbGlQcmsvUHJrLVBIUC1GcmFtZXdvcmsvd2lraS9EYXRhYmFzZS1FcnJvci1JbmZvI2Vycm9yLWNvZGUtLTEwMTEiJm5ic3A7dGFyZ2V0PSJfYmxhbmsiPjwvYT4='));
+if (!$db_config['username'] || !$db_config['password'] || !$db_config['name']) exit(base64_decode('VU5BQkxFJm5ic3A7VE8mbmJzcDtDT05ORUNUJm5ic3A7VE8mbmJzcDtUSEUmbmJzcDtEQVRBQkFTRSEmbmJzcDsoRXJyb3ImbmJzcDtjb2RlOiZuYnNwOy0xMDExKSZuYnNwOzxhJm5ic3A7aHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL0JpbGlQcmsvUHJrLVBIUC1GcmFtZXdvcmsvd2lraS9EYXRhYmFzZS1FcnJvci1JbmZvI2Vycm9yLWNvZGUtLTEwMTEiJm5ic3A7dGFyZ2V0PSJfYmxhbmsiPihIZWxwKTwvYT4='));
 $DB = new \lib\PdoHelper($db_config);
